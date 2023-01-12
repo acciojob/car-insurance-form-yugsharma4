@@ -8,6 +8,44 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+			<!-- Name -->
+		<label for="name" name="name" > Name <span class="redAsterick">*</span></label>
+		<input type="text" id="name" name="name" required/>
+		<br><br>
+			<!-- Email -->
+		<label for="email" name="email" > Email <span class="redAsterick">*</span></label>
+		<input type="email" id="email" name="email" required/>
+		<br><br>
+			<!-- Gender -->
+		<label for="gender" name="gender" > Gender <span class="redAsterick">*</span></label>
+		<input type="radio" id="male" name="gender" required/> Male
+		<input type="radio" id = "female" name="gender" required /> Female
+		<br><br>
+			<!-- Car Brands -->
+		<label for="cars" name="cars" > Car Brands <span class="redAsterick">*</span></label>
+		<select id = "cars">
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+		<br><br>
+			<!-- Car Age -->
+		<label for="carage" name="carage" > Car Age <span class="redAsterick">*</span></label>
+		<input type="number" id="carage" name="carage" required/>
+		<br><br>
+			<!-- Date of purchase -->
+		<label for="dop" name="dop" > Date of Purchase <span class="redAsterick">*</span></label>
+		<input type="date" id="dop" name="dop" required/>
+		<br><br>
+			<!-- Password -->
+		<label for="password" name="password"> Password <span class="redAsterick">*</span></label>
+		<input type="password" id="password" name="password" required/>
+		<br><br>
+			<!-- Submit -->
+		<button type="submit">Submit</button>
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
